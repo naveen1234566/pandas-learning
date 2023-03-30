@@ -112,13 +112,13 @@ import pandas as pd
 # print(df)
 
 """ hoe to save csv file in pandas """
-# df = pd.read_csv("dirtydata.csv")
-# df.fillna(1300, inplace=True)
+df = pd.read_csv("dirtydata.csv")
+df.fillna(1300, inplace=True)
 
-# print(df)
+print(df)
 
-# df.to_csv("file.csv")
-# df.to_json("file.json")
+df.to_csv("file.csv")
+df.to_json("file.json")
 
 """ data correlation - corr() """
 # -1 to 1 (0.5 - 0.9)
